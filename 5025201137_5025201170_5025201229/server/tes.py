@@ -9,3 +9,5 @@ sz = os.path.getsize(fpath)
 print(f'The {fpath} size is', sz, 'bytes')
 
 f.close()
+
+type(sz)
